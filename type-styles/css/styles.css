@@ -1,0 +1,143 @@
+html {
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15pt;
+}
+
+h1 {
+    color:black;
+    text-align: center;
+    font-size: 50pt;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+} 
+
+h2 {
+    font-size: 15pt;
+    text-align: center;
+    margin-top: -0.5em;
+    font-weight: 400;
+}
+
+p {
+    margin: 0;
+}
+
+sub {
+    text-align: left;
+    font-weight: 700;
+    font-size: 25pt;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.aside {
+    text-align:left;
+    font-weight: 300;
+    font-size: 15pt;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    color: rgb(23, 163, 163);
+}
+
+.weightnormal {
+    text-align:left;
+    font-weight: 400;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.weightbold {
+    text-align:left;
+    font-weight: 700;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.styleitalic {
+    text-align:left;
+    font-style: italic;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.letterspacing1 {
+    text-align:left;
+    letter-spacing: 0.3em;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.letterspacing2 {
+    text-align:left;
+    letter-spacing: -0.06em;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.underline {
+    text-align:left;
+    font-weight: 400;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    text-decoration: underline;
+}
+
+.strikethrough {
+    text-align:left;
+    font-weight: 400;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    text-decoration: line-through;
+}
+
+.overline {
+    text-align:left;
+    font-weight: 400;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    text-decoration: overline;
+    margin-bottom: 2rem;
+}
+
+.uppercase {
+    text-align:left;
+    font-weight: 400;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    text-transform: uppercase; 
+}
+
+.lowercase {
+    text-align:left;
+    font-weight: 400;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    text-transform: lowercase; 
+}
+
+.capitalize {
+    text-align:left;
+    font-weight: 400;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-bottom: 2rem;
+    text-transform: capitalize; 
+}
+
+
+style {
+    color: red;
+    font-size: 10pt;
+}
