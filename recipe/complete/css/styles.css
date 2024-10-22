@@ -1,0 +1,128 @@
+body {
+    font-family: "futura-pt-bold", sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+h1 {
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+h2 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
+}
+h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+img.first {
+    padding-top: 20px;
+}
+.info {
+    text-align: center;;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.column {
+    background-color: #f4f4f4;
+    padding: 20px;
+    flex: 1; 
+    gap: 10px;
+    border: 1px solid #ddd;
+    max-width: 18.5%;
+    max-height: 20%;
+}
+.ingredients {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+.list {
+    display: flex;
+
+}
+.column2{
+    background-color: #f4f4f4;
+    padding: 20px;
+    flex: 1; 
+    gap: 10px;
+    border: 1px solid #ddd;
+    max-width: 30%;
+}
+img.ingredientpic {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+}
+.columnpic{
+    background-color: #f4f4f4;
+    padding: 20px;
+    flex: 1; 
+    gap: 10px;
+    border: 1px solid #ddd;
+    max-width: 65%;
+}
+
+@media (max-width: 1024px) {
+    .column {
+        max-width: 45%;
+    }
+
+    .column2 {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 1rem; 
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .ingredients {
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .column, .column2, .columnpic {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: 0.8rem;
+    }
+    .ingredients {
+        font-size: 0.7rem;
+    }
+}
