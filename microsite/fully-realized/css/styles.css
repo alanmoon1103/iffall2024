@@ -1,0 +1,132 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "ivypresto-display", serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 18vw;
+    color: white;
+    margin: 0;
+    transform: translate(-140px, -20px);
+}
+
+.blacko {
+    color: black;
+}
+
+h2 {
+    font-family: "ivypresto-display", serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 18vw; 
+    color: black;
+    margin: 0;
+    padding-top: 20px;
+    transform: translate(176px, 20px);
+}
+
+.whitehighlight {
+    color: white;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+a {
+    font-family: "ivypresto-display", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 3vw; 
+    border: none;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity 0.5s ease;
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+a.cc {
+    font-family: "ivypresto-display", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+a.bb {
+    color: black;
+    font-family: "ivypresto-display", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.homepage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/homepage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 15vw; 
+    }
+
+    h2 {
+        font-size: 15vw;
+    }
+
+    a {
+        font-size: 4vw;
+    }
+    a.bb {
+        color: white;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 12vw;
+    }
+
+    h2 {
+        font-size: 12vw;
+    }
+
+    a {
+        font-size: 5vw; 
+    }
+
+    a.bb {
+        color: white;
+    }
+
+    .button-container {
+        flex-direction: column; 
+        padding: 20px 0;
+    }
+}

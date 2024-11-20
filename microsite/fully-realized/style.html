@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Style</title>
+    
+    <link rel="stylesheet" href="https://use.typekit.net/kkm6jja.css">
+    <link href="https://fonts.cdnfonts.com/css/junicode" rel="stylesheet">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100%;
+            background-color: black;
+            color: white;
+            font-family: 'Junicode', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .stylepage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-family: "ivypresto-display", serif;
+            font-weight: 300;
+            font-style: italic;
+            font-size: 14vw;
+            color: white;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .button-container {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+            margin-right: 100px;
+        }
+
+        a {
+            font-family: "ivypresto-display", serif;
+            font-weight: 300;
+            font-size: 2vw;
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.5s ease;
+        }
+
+        a:hover {
+            opacity: 0.5;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: 2fr,2fr;
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 150px;
+        }
+
+        .photo-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .theme {
+            font-size: 1.5vw;
+            margin: 10px 0 5px;
+            text-align: center;
+        }
+
+        .body {
+            font-size: 1vw;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        @media (max-width: 1024px) {
+            h1 {
+                font-size: 12vw;
+            }
+
+            a {
+                font-size: 3vw;
+            }
+
+            .theme {
+                font-size: 2.5vw;
+            }
+
+            .body {
+                font-size: 1.5vw;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 15vw;
+            }
+
+            a {
+                font-size: 4vw;
+            }
+
+            .theme {
+                font-size: 3vw;
+            }
+
+            .body {
+                font-size: 2vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stylepage" id="style">
+
+        <h1>Style</h1>
+
+        <div class="button-container">
+            <a href="index.html">Home</a>
+        </div>
+
+        <div class="photo-grid">
+            <div class="photo-item">
+                <img src="img/dreamchair.jpg" alt="Dream Chair">
+                
+                <p class="theme">Geometry</p>
+                
+                <p class="body">
+
+                    A common feature of Ando's structures is their intricate, three-dimensional circulation arrangements. These pathways wind across internal and external areas created both within and between extensive geometric structures.
+
+                </p>
+                
+            </div>
+
+            <div class="photo-item">
+                <img src="img/watertemple.jpg" alt="Water Temple">
+
+                <p class="theme">Spatial Experience</p>
+
+                <p class="body">
+
+                    One of Ando's most known and appreciated works in Japan. Its contribution to Japanese culture is being recognized, and with its unusual design approach, it creates not only spatial but also sensational experiences for visitors.
+
+                </p>
+                
+            </div>
+
+            <div class="photo-item">
+                <img src="img/waterchurch.jpg" alt="Church on Water">
+                
+                <p class="theme">Nature</p>
+                
+                <p class="body">
+                   
+                    A prime example of how Ando offers nature itself as the expressive symbol of the creator. This decision offers a dynamic and constantly changing environment, ranging from sepia-toned autumnal palettes to glaucous winter 
+                    
+                    tones to springtime flower patches in the summer green.
+                
+                </p>
+            
+            </div>
+            
+            <div class="photo-item">
+                <img src="img/chichu.jpg" alt="Chichu Art Museum">
+                
+                <p class="theme">Light</p>
+                
+                <p class="body">
+                    
+                    An example of Ando's defining principle: light. Despite being mostly underground, the museum allows in a lot of natural light, which alters the way the artworks seem and the atmosphere of the concrete space itself over 
+                    the course of a day and the four seasons.
+                
+                </p>
+            
+            </div>
+        
+        </div>
+   
+    </div>
+
+</body>
+</html>
