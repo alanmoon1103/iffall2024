@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    
+    <link rel="stylesheet" href="https://use.typekit.net/kkm6jja.css">
+    <link href="https://fonts.cdnfonts.com/css/junicode" rel="stylesheet">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100%;
+            background-color: black;
+            color: white;
+            font-family: 'Junicode', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .aboutpage {
+            width: 100%;
+            background-image: url("img/about.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 20px;
+            box-sizing: border-box;
+            flex: 1;
+        }
+
+        h1 {
+            font-family: "ivypresto-display", serif;
+            font-weight: 300;
+            font-style: italic;
+            font-size: 14vw;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .button-container {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 0px;
+            margin-right: 100px;
+        }
+
+        a {
+            font-family: "ivypresto-display", serif;
+            font-weight: 300;
+            font-size: 2vw;
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.5s ease;
+        }
+
+        a:hover {
+            opacity: 0.5;
+        }
+
+        .body {
+            font-size: 1.2vw;
+            line-height: 1.5;
+            color: white;
+            text-align: left;
+            max-width: 50%;
+            
+            margin-right: 0;
+            margin-top: 150px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.15);
+        }
+
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            color: white;
+        }
+
+        @media (max-width: 1024px) {
+            h1 {
+                font-size: 10vw;
+                margin-top: 20px;
+            }
+
+            .body {
+                font-size: 1.5vw;
+                max-width: 70%;
+                padding: 15px;
+            }
+
+            a {
+                font-size: 3vw;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 12vw;
+            }
+
+            .button-container {
+                margin-top: 10px;
+            }
+
+            a {
+                font-size: 4vw;
+            }
+
+            .body {
+                font-size: 2vw;
+                max-width: 90%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="aboutpage" id="about">
+            <h1>About</h1>
+
+            <div class="button-container">
+                <a href="index.html">Home</a>
+            </div>
+
+            <div class="button-container">
+                <a href="style.html">Style</a>
+            </div>
+
+            <div class="button-container">
+                <a href="works.html">Works</a>
+            </div>
+
+
+            <div class="body">
+                <p>
+                    Tadao Ando (安藤 忠雄, Andō Tadao, born 13 September 1941) is a Japanese autodidact architect whose approach to architecture and landscape was categorized by architectural historian Francesco Dal Co as "critical regionalism". He is the winner of the 1995 Pritzker Prize.
+                </p>
+
+                <p>
+                    Ando was born a few minutes before his twin brother in 1941 in Minato-ku, Osaka, Japan. At the age of two, his family chose to separate them and have Tadao live with his great-grandmother. He worked as a boxer and fighter before settling on the profession of architect, despite never having formal training in the field.
+                </p>
+
+                <p>
+                    Struck by the Frank Lloyd Wright-designed Imperial Hotel on a trip to Tokyo as a second-year high school student, he eventually decided to end his boxing career less than two years after graduating from high school to pursue architecture. He attended night classes to learn drawing and took correspondence courses on interior design.
+                </p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Director: Audeep Cariens • Designer: Alan Moon</p>
+        </footer>
+    </div>
+</body>
+</html>

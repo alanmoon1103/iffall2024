@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Works</title>
+    
+    <link rel="stylesheet" href="https://use.typekit.net/kkm6jja.css">
+    <link href="https://fonts.cdnfonts.com/css/junicode" rel="stylesheet">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100%;
+            overflow-x: hidden;
+            background-color: black;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .workspage {
+            width: 100%;
+            padding: 50px;
+            padding-top: 0px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+        }
+
+        h1 {
+            font-family: "ivypresto-display", serif;
+            font-weight: 100;
+            font-size: 14vw;
+            color: white;
+            text-align: righ;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-family: "ivypresto-display", serif;
+            font-weight: 100;
+            font-size: 8vw;
+            color: white;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .button-container {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 0;
+        }
+
+        a {
+            font-family: "ivypresto-display", serif;
+            font-weight: 300;
+            font-size: 2vw;
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.5s ease;
+        }
+
+        a:hover {
+            opacity: 0.5;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-rows: auto auto auto;
+            grid-template-columns: 1fr;
+            gap: 20px; 
+            width: 60%;
+            margin-left: 20px;
+            margin-right: 30px;
+            margin-top: 150px;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-family: "ivypresto-display", serif;
+            font-weight: 100;
+            font-size: 7vw;
+            color: white;
+            margin:0 ;
+            margin-bottom: 30px;
+        }
+
+        .main-image img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .body {
+            font-family: 'Junicode', sans-serif;
+            font-size: 1.2vw;
+            line-height: 1.5;
+            color: white;
+        }
+
+
+        .photo-grid-wrapper {
+            width: 100%;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 30px;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 60%;
+            align-items: center; 
+            margin: 0 auto;
+        }
+
+        .photo-grid img {
+            width: 100%; 
+            height: 100%;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            color: white;
+        }
+
+        @media (max-width: 1024px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+
+            .photo-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 10vw;
+            }
+
+            a {
+                font-size: 3vw;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 12vw;
+            }
+
+            a {
+                font-size: 4vw;
+            }
+
+            .body {
+                font-size: 2vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="workspage" id="works">
+
+            <h1>Works</h1>
+
+            <div class="button-container">
+                <a href="index.html">Home</a>
+            </div>
+
+            <div class="button-container">
+                <a href="about.html">About</a>
+            </div>
+
+            <div class="button-container">
+                <a href="style.html">Style</a>
+            </div>
+
+            <div class="grid-container">
+                
+                <div class = "title">
+                    <h2> The Church of Light</h2>
+                </div>
+
+                <div class="main-image">
+                    <img src="img/lightchurch.webp" alt="Church of Light">
+                </div>
+                
+                
+
+                <div class="body">
+                    
+                    <p>
+                        The Church of the Light is one of the most emblematic and representative works of Tadao Ando. The Church was part of a larger project which is the redesign of a Christian complex with a vicarage and a small pre-existing wooden church in a quiet residential neighborhood of the small city of Ibaraki, in the Japanese Osaka prefecture. Completion of the Church of Light in 1989 was the first phase of the process that Tadao Ando completed in 1999.
+
+                        The unusual simplicity of the church has received criticism; this church is one of the examples where Ando's relationship with concrete and light is impressively read. Although it has been stated as nothing but six walls and a roof, the details of the church and its simplicity make it attractive. Ando said, "Light, alone, does not make light. There must be darkness for light to become light – resplendent with dignity and power. Darkness, which kindles the brilliance of light and reveals light's power, is innately a part of light."
+                    </p>
+                </div>
+            </div>
+
+            <div class="photo-grid-wrapper">
+                <div class="photo-grid">
+                    <img src="img/church1.jpg" alt="Image 1">
+                    <img src="img/church2.jpg" alt="Image 2">
+                    <img src="img/church3.webp" alt="Image 3">
+                </div>
+            </div>
+
+            <div class="grid-container">
+
+                <div class = "title">
+                    <h2> The Hill of Buddha</h2>
+                </div>
+
+                <div class="main-image">
+                    <img src="img/buddha1.jpg" alt="Hill of Buddha">
+                </div>
+                <div class="body">
+                    <p>
+                        The Hill of Buddha is a Buddhist shrine at Makomanai Takino Cemetery in Sapporo, Japan. The shrine includes a 13.5-meter tall and 1500 tons weight statue that was carved in 2000 and stood alone in the field, giving an unrestful impression until 2015. The aim of the project was to build a prayer hall on the site that would enhance the attractiveness of a stone Buddha.
+
+                        Tadao Ando explains the project as follows; The monument, which is hidden from view from the outside, was intended to be the focal point of a dramatic spatial sequence that started with the long approach through the tunnel. When visitors enter the hall, they turn to face the Buddha, whose head is surrounded by a halo of sky. One hundred fifty thousand lavender plants have been planted on Buddha Hill, and they change from fresh green in the spring to pale purple in the summer to silky white with snow in the winter.
+                    </p>
+                </div>
+            </div>
+
+            <div class="photo-grid-wrapper">
+                <div class="photo-grid">
+                    <img src="img/buddha2.jpg" alt="Image 1">
+                    <img src="img/buddha4.webp" alt="Image 2">
+                    <img src="img/buddha3.jpg" alt="Image 3">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Director: Audeep Cariens • Designer: Alan Moon</p>
+        </footer>
+    </div>
+</body>
+</html>
